@@ -1,5 +1,2 @@
-<?php
-
-echo "document.getElementById('date-holder').innerHTML = '".Date('Y')."';";
-
-?>
+Здравствуйте, <?php echo htmlspecialchars($_POST['name']); ?>.
+Вам <?php echo (int)$_POST['age']; ?> лет.
